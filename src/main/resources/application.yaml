@@ -1,0 +1,17 @@
+server:
+  port: 8385
+  error:
+    include-message: always
+
+logging:
+  level:
+    root: INFO
+    org:
+      hibernate:
+        type: trace
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: "example-svc"
